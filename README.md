@@ -1,2 +1,22 @@
-# pack-info-plugin
-控制台输出打包信息备注
+# vue 打包信息打印
+加载index.html时，控制台打印打包时间，打包人，打包分支，以及最后一次提交时间，提交人
+
+## 使用
+- 安装依赖
+
+```
+npm i pack-info-plugin -save-dev
+```
+- vue.config.js中使用
+
+```
+const HtmlPackInfoPlugin = require('pack-info-plugin')
+
+module.exports = {
+    configureWebpack {
+        plugins: [
+            new HtmlPackInfoPlugin()
+        ]
+    }
+}
+```
