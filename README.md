@@ -3,7 +3,7 @@
 
 ### 效果图
 
-![Image text](https://github.com/Code-RoadFly/pack-info-plugin/blob/main/sample.jpg)
+![Image text](https://github.com/Code-RoadFly/pack-info-plugin/blob/main/example.png)
 
 ## 使用
 - 安装依赖
